@@ -1,8 +1,9 @@
-import koa from 'koa'
-import koaRouter from 'koa-router'
-import koaBody from 'koa-bodyparser'
-import { graphqlKoa, graphiqlKoa } from 'apollo-server-koa'
-import schema from './schema/example'
+// src/index.js
+import koa from 'koa';
+import koaRouter from 'koa-router';
+import koaBody from 'koa-bodyparser';
+import { graphqlKoa, graphiqlKoa } from 'apollo-server-koa';
+import schema from './schema/example';
 
 const app = new koa();
 const router = new koaRouter();
